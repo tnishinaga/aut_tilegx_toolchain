@@ -1,0 +1,21 @@
+pkgbase = tilegx-linux-gnu-eglibc
+	pkgdesc = Embedded GNU C Library (tilegx-linux-gnu)
+	pkgver = 2.19.r25988
+	pkgrel = 1
+	url = http://www.eglibc.org
+	arch = any
+	license = GPL
+	makedepends = tilegx-linux-gnu-gcc-stage2
+	makedepends = subversion
+	makedepends = gperf
+	depends = tilegx-linux-gnu-linux-api-headers
+	provides = tilegx-linux-gnu-eglibc-headers=2.19.r25988
+	conflicts = tilegx-linux-gnu-eglibc-headers
+	replaces = tilegx-linux-gnu-eglibc-headers
+	options = !strip
+	options = staticlibs
+	source = eglibc::svn://svn.eglibc.org/branches/eglibc-2_19/libc
+	md5sums = SKIP
+
+pkgname = tilegx-linux-gnu-eglibc
+
