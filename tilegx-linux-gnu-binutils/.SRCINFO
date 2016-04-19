@@ -1,5 +1,5 @@
 pkgbase = tilegx-linux-gnu-binutils
-	pkgdesc = A set of programs to assemble and manipulate binary and object files for the ARM64 target
+	pkgdesc = A set of programs to assemble and manipulate binary and object files for the TILE-Gx target
 	pkgver = 2.25.1
 	pkgrel = 1
 	url = http://www.gnu.org/software/binutils/
